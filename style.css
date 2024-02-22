@@ -1,0 +1,250 @@
+/* body{
+    background: black;
+    color: white;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+.container{
+    background-color: black;
+    
+}
+
+.home{
+    /* border: 1px solid black; */
+    color: white;
+    padding: 30px;
+    background-color: #121212;
+    border-radius: 17px;
+}
+.ham{
+    /* display: none; */
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-start;
+}
+.ham i{
+    filter: invert(1);
+}
+.library{
+    background-color: #121212;
+    margin-top: 10px;
+    border-radius: 17px;
+    color: white;
+    padding: 30px;
+    /* height: 100%; */
+    position: relative;
+    height: 66vh;
+}
+.lib{
+    display: flex;
+    /* flex-direction: column; */
+}
+.library img{
+    width: 20px;
+}
+.library h3{
+    padding: 20px;
+}
+.invert{
+    filter: invert(1);
+}
+.left{
+    width: 25vw;
+    /* border: 2px solid red; */
+    margin: 3px;
+    background-color:black;
+    padding: 10px;
+    min-height: 95vh;
+    /* position: relative; */
+}
+.home ul li{
+    display: flex;
+    gap: 15px;
+    width: 14px;
+    list-style: none;
+    padding: 12px 0;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 19px;
+    margin-top: 20px;
+    /* padding-left: 10px; */
+}
+.footer ul{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.footer li{
+    list-style: none;
+}
+.footer li a {
+    text-decoration: none;
+    color: #858585;
+}
+
+.list{
+    padding: 10px;
+}
+.list span{
+    font-size: 20px;
+}
+#time{
+    margin-left: 10px;
+}
+.fa{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.range{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.range input{
+    width: 80%;
+    padding: 10px;
+}
+
+
+
+@media  (max-width:1000px){
+    .releft{
+        width: 11vw;
+        /* opacity: 0; */
+    }
+    .left{
+        opacity: 0;
+    }
+    /* .ham{
+        display: block;
+        opacity: 100;
+    } */
+}
+
+
+
+
+
+
+
+.right{
+    width: 75vw;
+    /* border: 2px solid green; */
+    margin: 3px;
+    background-color:#121212;
+    border-radius: 29px;
+    margin: 10px 0;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+    position: relative;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #101010;
+}
+.buttons button{
+    font-size: 20px;
+    margin: 0 20px;
+    border-radius: 18px;
+    padding: 10px;
+}
+.icon1{
+    margin-right: 30px;
+}
+
+.playlist{
+    color: white ;
+}
+
+.cardcontainer{
+    /* border: 1px solid red; */
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}   
+
+.card{
+    /* border: 1px solid green; */
+    background-color:#252525;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    /* margin: 10px; */
+    /* padding: 20px; */
+    margin: 40px;
+    /* align-items: center; */
+    padding: 10px;
+}
+.card img{
+    width: 80%;
+    height: 170px;
+    margin: auto
+    ;
+    /* padding: 0 20px; */
+}
+.card h2{
+    align-items:flex-start ;
+
+}
+.card {
+    position: relative;
+    width: 300px; /* Adjust the width as needed */
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.play-button {
+    position: absolute;
+    top: 140px; /* Adjust the top position as needed */
+    right:50px; /* Adjust the left position as needed */
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    background-color: #4CAF50; /* Green background color */
+    border-radius: 50%; /* Make it circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-button::before {
+    content: '\25B6'; /* Unicode character for play symbol */
+    font-size: 20px;
+    color: white;
+}
+
+
+.playbar{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(106, 236, 106);
+    width: 90%;
+    /* display: block; */
+    margin:20px 70px;
+    padding: 10px;
+    /* margin: 5px 10px; */
+}
+
+.playbuttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#play{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
